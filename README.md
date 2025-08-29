@@ -34,7 +34,8 @@ This combination worked relatively well together although there still are inaccu
 ## Performance
 For the stations we calibrated the algorithm with, we got the following performances:
 
-| | Harvard, Massachusetts | State College, Pennsylvania | Disney Wilderness Preserve, Florida | Tucson, Arizona | Albuquerque, New Mexico |
+| | Harvard, MA | State College, Pa | Disney Wilderness Preserve, FL | Tucson, AZ | Albuquerque, NM |
+|----------|----------|----------|----------|----------|----------|
 | True Positives | 59 | 16 | 66 | 218 | 350 |
 | Likely True Positives | 17 | 62 | 182 | 85 | 204 |
 | False Positives | 22 | 12 | 36 | 115 | 96 |
