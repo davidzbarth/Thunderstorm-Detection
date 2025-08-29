@@ -54,5 +54,7 @@ One "Run all" is everything that is needed, as long as the file paths and the ti
 "LKO" is the channel for the temperature data and "LDO" the one for pressure data in those files.
 
 ## Benchmarking
-With the *benchmark.ipynb* file, the data can be tested against the airport recordings of thunderstorms.
+With the *benchmark.ipynb* file, the data can be tested against the airport recordings of thunderstorms, if desired.
 The latter are included in the compressed folders too.
+
+This notebook also contains a function which takes the entries of the *output.csv* file and converts them back to two UTCDateTime objects.
