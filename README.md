@@ -38,8 +38,8 @@ For the stations we calibrated the algorithm with, we got the following performa
 
 | | Harvard, MA | State College, Pa | Disney Wilderness Preserve, FL | Tucson, AZ | Albuquerque, NM |
 |----------|----------|----------|----------|----------|----------|
-| True Positives | 59 | 16 | 66 | 218 | 350 |
-| Likely True Positives | 17 | 62 | 182 | 85 | 204 |
+| True Positives | 58 | 16 | 66 | 218 | 350 |
+| Likely True Positives | 18 | 62 | 182 | 85 | 204 |
 | False Positives | 22 | 12 | 36 | 115 | 96 |
 
 The absolute numbers depend largely on how frequent thunderstorms are in the specific region and how many years of data we have.
