@@ -1,5 +1,5 @@
 # Thunderstorm-Detection
-An algorithm is provided that can point out past thunderstorms from pressure and temperature data alone.\\
+An algorithm is provided that can point out past thunderstorms from pressure and temperature data alone.
 
 ## Functionality
 This program is supposed to work in a straightforward way:
@@ -9,12 +9,12 @@ They should stretch over the same time span and obviously contain as much time a
 The resolution in time should be finer than 1 per 10 minutes, ideally much finer.
 Those conditions are essential for the algorithm to work.
 This data can for example be drawn from seismic stations, which is what I have done. 
-iris.edu provides extensive records of those, often including meteorological data.\\
+iris.edu provides extensive records of those, often including meteorological data.
 
 The algorithm takes the data and puts out a .csv file.
 It contains the time intervals over which we have continuous data for both temperature and pressure in the first row.
 In each column, the file then lists the time intervals where it claims to have found thunderstorms.
-Whether this data is output in UCT or local time can be changed at the end of the notebook.\\
+Whether this data is output in UCT or local time can be changed at the end of the notebook.
 
 How exactly the detection works is explained in detail throughout the notebook.
 It can be studied in detail or just used for its main purpose by one "run all".
@@ -41,7 +41,7 @@ For the stations we calibrated the algorithm with, we got the following performa
 | False Positives | 22 | 12 | 36 | 115 | 96 |
 
 The absolute numbers depend largely on how frequent thunderstorms are in the specific region and how many years of data we have.
-This changes from station to station but overall, we still pick up quite some thunderstorms with a bounded uncertainty.\\
+This changes from station to station but overall, we still pick up quite some thunderstorms with a bounded uncertainty.
 
 More on what exactly "Likely True Positives" means, can be found in the *benchmark.ipynb* notebook.
 
