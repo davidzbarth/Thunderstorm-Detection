@@ -31,6 +31,8 @@ They can be drawn from airport recordings which are easily accessible at https:/
 
 This combination worked relatively well together although there still are inaccuracies in the data and airport and meteorological station are usually between 15 and 25 kilometers apart from each other.
 
+The condition of finely sampled meteorological data prevented us from using the airport data for that too as it is only collected roughly once per hour.
+
 ## Performance
 For the stations we calibrated the algorithm with, we got the following performances:
 
