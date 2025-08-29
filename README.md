@@ -23,7 +23,7 @@ It can be studied in detail or just used for its main purpose by one "run all".
 The algorithm was developed with data from different stations across the United States. 
 The challenge was to find finely sampled meteorological data and decent thunderstorm records for one place.
 
-For the finely sampled meteorological data, iris.edu provides extensive records for a lot of stations across the US. 
+For the finely sampled meteorological data, [iris.edu](https://www.iris.edu/hq/) provides extensive records for a lot of stations across the US. 
 The IU and II networks are usually reliable.
 
 Finding decent thunderstorm records was harder.
