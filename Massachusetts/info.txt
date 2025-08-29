@@ -1,2 +1,0 @@
-This folder contains meteorological data from the HRV seismic station in Harvard, Massachusetts.
-The algorithm can be tested with this.
