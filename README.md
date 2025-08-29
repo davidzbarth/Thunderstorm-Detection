@@ -50,3 +50,7 @@ I have included the training data from different stations in the *us_state*.zip 
 They can be downloaded and unpacked and should work with the notebook straight away.
 One "Run all" is everything that is needed, as long as the file paths and the time zone is correct.
 "LKO" is the channel for the temperature data and "LDO" the one for pressure data in those files.
+
+## Benchmarking
+With the *benchmark.ipynb* file, the data can be tested against the airport recordings of thunderstorms.
+The latter are included in the compressed folders too.
