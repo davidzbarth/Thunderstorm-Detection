@@ -48,10 +48,10 @@ This changes from station to station but overall, we still pick up quite some th
 More on what exactly "Likely True Positives" means, can be found in the *benchmark.ipynb* notebook.
 
 ## Quick Start to Test
-I have included the training data from different stations in the *us_state*.zip files.
+The training data from different stations is included in the *us_state*.zip files.
 They can be downloaded and unpacked and should work with the notebook straight away.
 One "Run all" is everything that is needed, as long as the file paths and the time zone is correct.
-"LKO" is the channel for the temperature data and "LDO" the one for pressure data in those files.
+"LKO" is the channel for the temperature data and "LDO" the one for pressure data in those folders.
 
 ## Benchmarking
 With the *benchmark.ipynb* file, the data can be tested against the airport recordings of thunderstorms, if desired.
